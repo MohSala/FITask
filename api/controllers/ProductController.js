@@ -46,7 +46,7 @@ module.exports = {
     }
   },
   viewProducts: async function(req, res) {
-    const data = req.params;
+    const data = req.param("orderId");
 
     const products = await Product.find().populate("order", {
       where: {

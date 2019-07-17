@@ -1,5 +1,5 @@
 /**
- * Order.js
+ * Hobby.js
  *
  * @description :: A model definition represents a database table/collection.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
@@ -7,15 +7,12 @@
 
 module.exports = {
   attributes: {
-    name: {
+    title: {
       type: "string",
       required: true
     },
     owner: {
-      model: "user"
+      model: "test"
     }
-    // products: {
-    //   model: "order"
-    // }
   }
 };

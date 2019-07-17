@@ -26,7 +26,9 @@ module.exports.routes = {
   "POST /orders": "OrderController.createorder",
   "POST /products": "ProductController.addProduct",
   "GET /orders": "OrderController.viewOrders",
-  "GET /products/:id": "ProductController.viewProducts"
+  "GET /products/:id": "ProductController.viewProducts",
+  "POST /test": "TestController.addtest",
+  "POST /hobby": "TestController.addhobby"
 
   /***************************************************************************
    *                                                                          *

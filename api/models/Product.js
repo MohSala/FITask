@@ -7,6 +7,10 @@
 
 module.exports = {
   attributes: {
+    // orders: {
+    //   collection: "order",
+    //   via: "products"
+    // },
     name: {
       type: "string",
       required: true
@@ -22,9 +26,5 @@ module.exports = {
     order: {
       model: "order"
     }
-    // ,
-    // owner: {
-    //   model: "user"
-    // }
   }
 };
